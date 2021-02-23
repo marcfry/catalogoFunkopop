@@ -7,3 +7,4 @@ window.agregarFunkopop = function(event) {
     event.preventDefault();
     console.log("dentro de agregar funko");
 }
+
