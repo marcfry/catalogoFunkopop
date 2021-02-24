@@ -19,6 +19,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.15.5/dist/sweetalert2.all.min.js"></script>
   </head>
 
   <body>
@@ -78,9 +79,7 @@
           <h2>Tabla de productos</h2>
           <button
             class="btn btn-outline-primary"
-            data-bs-toggle="modal"
-            data-bs-target="#modalFunkopop"
-          >
+            id="btnAgregar"          >
             Agregar
           </button>
         </article>
@@ -233,7 +232,8 @@
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
       crossorigin="anonymous"
     ></script>
-    <script type="module" src="/js/admin.js"></script>
-    <script src="/js/validaciones.js"></script>
+    <script src="js/validaciones.js"></script>
+        <script type="module" src="/js/admin.js"></script>
+    
   </body>
 </html>

@@ -1,5 +1,5 @@
 function validarFormulario(input) {
-  console.log("funcion validarFormulario");
+  //console.log("funcion validarFormulario");
   if (input.value.trim() === "") {
     input.className = "form-control is-invalid";
     return false;
