@@ -8,3 +8,4 @@ export class Funko {
         this.imagen = imagen;
     }
 }
+
