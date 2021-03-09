@@ -95,20 +95,7 @@
                   <th scope="col">Opciones</th>
                 </tr>
               </thead>
-              <tbody id="tablaFunkopop">
-                <tr>
-                  <td>#</td>
-                  <td>Nombre</td>
-                  <td>Numero de serie</td>
-                  <td>Categoría</td>
-                  <td>Descripción</td>
-                  <td>Imagen</td>
-                  <td>
-                    <button class="btn btn-warning">Editar</button>
-                    <button class="btn btn-danger">Borrar</button>
-                  </td>
-                </tr>
-              </tbody>
+              <tbody id="tablaFunkopop"></tbody>
             </table>
           </section>
         </article>
@@ -134,7 +121,7 @@
               ></button>
             </div>
             <div class="modal-body">
-              <form id="formFunkopop" onsubmit="agregarFunkopop(event)">
+              <form id="formFunkopop" onsubmit="guardarFunko(event)">
                 <div class="mb-3">
                   <label class="form-label">Codigo</label>
                   <input
@@ -212,12 +199,7 @@
                     class="form-control"
                     id="imagen"
                     placeholder="Agregar una imagen"
-                    onblur="validarFormulario(this)"
-                    />
-                    <div class="valid-feedback"></div>
-                    <div class="invalid-feedback">
-                      Debe ingresar una imagen válida
-                    </div>
+                  />
                 </div>
                 <button class="btn btn-primary" type="submit">Guardar</button>
               </form>
@@ -235,6 +217,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="/js/validaciones.js"></script>
-        <script type="module" src="/js/admin.js"></script>
+    <script type="module" src="/js/admin.js"></script>
   </body>
 </html>
